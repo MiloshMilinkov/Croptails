@@ -394,9 +394,10 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tpwit"]
-radius = 7.0
+radius = 6.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1886751100]
+collision_layer = 2
 script = ExtResource("1_6avc5")
 current_tool = 3
 
