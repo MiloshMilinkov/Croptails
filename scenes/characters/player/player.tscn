@@ -395,7 +395,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tpwit"]
-radius = 6.0
+radius = 5.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bmvq7"]
 radius = 3.0
@@ -403,7 +403,7 @@ radius = 3.0
 [node name="Player" type="CharacterBody2D" unique_id=1886751100]
 collision_layer = 2
 script = ExtResource("1_6avc5")
-current_tool = 3
+current_tool = 1
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=491660629]
 position = Vector2(0, -8)
